@@ -16,11 +16,12 @@ span.cm-tag			{ color: #82828d; }
 span.cm-link		{ color: #d8c355; }
 span.cm-number		{ color: #d8c355; }
 
-span.cm-string		{ color: #ff8e3c; }
-span.cm-string-2    { color: #ff8e3c; }
-span.cm-variable	{ color: #ff8e3c; }
-span.cm-variable-2	{ color: #ff8e3c; }
-span.cm-variable-3	{ color: #ff8e3c; }
+/*span.cm-string		{ color: #ff9d56; }*/
+span.cm-string		{ color: #ff9d56; }
+span.cm-string-2    { color: #ff9d56; }
+span.cm-variable	{ color: #ff9d56; }
+span.cm-variable-2	{ color: #ff9d56; }
+span.cm-variable-3	{ color: #ff9d56; }
 
 span.cm-attribute	{ color: #d3d3d9; }
 
@@ -34,11 +35,12 @@ span.cm-error		{ background-color: #6d3000; }
 /* MISC ---------------------------------------------------------------------- */
 
 .CodeMirror {
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .CodeMirror-scroll {
-    background: #141617;
+    /*background: #141617; */
+    background: #202223;
 	color: #b1b1b1;
 }
 
@@ -52,8 +54,8 @@ span.cm-error		{ background-color: #6d3000; }
 }
 
 .CodeMirror-gutters {
-	background: #141617;
-	border-right: 1px solid #141617;
+	background: #202223;
+	border-right: 1px solid #202223;
 }
 
 .CodeMirror-linenumber {
