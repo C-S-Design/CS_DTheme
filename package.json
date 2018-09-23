@@ -1,0 +1,20 @@
+{
+    "title": "CS Design | Dark Theme",
+    "name": "cs-design-dark-theme",
+    "description": "Brackets dark theme",
+    "version": "1.0.0",
+    "author": "CS Design",
+    "homepage": "https://github.com/C-S-Design/CS_DTheme",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:C-S-Design/CS_DTheme.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "cs-design-dtheme.css",
+        "dark": true
+    }
+}
